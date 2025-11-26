@@ -35,7 +35,7 @@ These solvers are designed to work for **any matrix size** $N \times N$ on GPU. 
     ```
 
 3.  **Setup Weights:**
-    Place your pretrained weights in a `models/` directory:
+    Pretrained weights are in `models/` directory along with their benchmark results which are in .txt format:
     ```text
     models/
     ├── flash.pth
