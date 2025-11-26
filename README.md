@@ -1,4 +1,4 @@
-# Ai-Matrix-Solver
+# Ai Matrix Solver
 This repository contains a family of **neural iterative solvers** for linear systems $Ax = b$, trained in PyTorch.
 
 These solvers are designed to work for **any matrix size** $N \times N$ on GPU. They utilize a learned gradient-descent approach to approximate solutions significantly faster than `torch.linalg.solve` for large dimensions and batch sizes.
