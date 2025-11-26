@@ -37,7 +37,7 @@ These solvers are designed to work for **any matrix size** $N \times N$ on GPU. 
     ```
 
 3.  **Setup Weights:**
-    Pretrained weights are in `models/` directory along with their benchmark results which are in .txt format:
+    Pretrained weights are in `models/` directory:
     ```text
     models/
     ├── flash.pth
@@ -52,6 +52,7 @@ These solvers are designed to work for **any matrix size** $N \times N$ on GPU. 
 ## 📊 Model Variants
 
 All variants share the same internal architecture (Hidden Dim = 20). Each model specially built for the corresponding **number of iterations** ($T$) for solving matrices, which dictates the speed/accuracy trade-off.
+You can see the benchmark results in `Benchmark.md` file.
 
 | Variant | Filename | Iterations ($T$) | Speed | Accuracy | Recommended Use Case |
 | :--- | :--- | :---: | :--- | :--- | :--- |
