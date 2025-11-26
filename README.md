@@ -4,7 +4,8 @@ This repository contains a family of **neural iterative solvers** for linear sys
 These solvers are designed to work for **any matrix size** $N \times N$ on GPU. They utilize a learned gradient-descent approach to approximate solutions significantly faster than `torch.linalg.solve` for large dimensions and batch sizes.
 
 > **⚠️ Note:** These models are **approximate solvers**. They aim for small residuals (e.g., $10^{-3}$ to $10^{-2}$), not machine‑precision solutions. For exact results, always use `torch.linalg.solve`.
-
+> **⚠️ Note:** These models are suitable for large matrix dimensions, you may find lower speed and accuracy in small matrix dimensions.
+> 
 ---
 
 ## 🚀 Key Features
