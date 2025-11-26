@@ -1,0 +1,79 @@
+=== Dimension N = 4, batch size = 1024 ===
+Model: time = 8.44 ms for 1024 systems  (121261.0 systems/s)
+torch.linalg.solve: time = 0.23 ms for 1024 systems  (4396264.9 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 2.098e-03
+  max  relative error in x                : 5.756e-02
+  mean relative residual ||Ax-b||/||b||   : 5.162e-04
+  max  relative residual ||Ax-b||/||b||   : 3.438e-02
+Exact solver mean relative error (sanity) : 9.394e-08
+
+=== Dimension N = 8, batch size = 1024 ===
+Model: time = 8.60 ms for 1024 systems  (119082.1 systems/s)
+torch.linalg.solve: time = 0.21 ms for 1024 systems  (4978147.7 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 2.903e-03
+  max  relative error in x                : 4.780e-02
+  mean relative residual ||Ax-b||/||b||   : 5.606e-04
+  max  relative residual ||Ax-b||/||b||   : 1.829e-02
+Exact solver mean relative error (sanity) : 1.547e-07
+
+=== Dimension N = 16, batch size = 1024 ===
+Model: time = 14.12 ms for 1024 systems  (72507.9 systems/s)
+torch.linalg.solve: time = 0.32 ms for 1024 systems  (3212538.9 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 3.784e-03
+  max  relative error in x                : 4.376e-02
+  mean relative residual ||Ax-b||/||b||   : 6.565e-04
+  max  relative residual ||Ax-b||/||b||   : 5.255e-03
+Exact solver mean relative error (sanity) : 2.420e-07
+
+=== Dimension N = 32, batch size = 1024 ===
+Model: time = 9.54 ms for 1024 systems  (107318.3 systems/s)
+torch.linalg.solve: time = 0.78 ms for 1024 systems  (1305912.6 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 4.876e-03
+  max  relative error in x                : 3.245e-02
+  mean relative residual ||Ax-b||/||b||   : 7.957e-04
+  max  relative residual ||Ax-b||/||b||   : 4.101e-03
+Exact solver mean relative error (sanity) : 2.945e-07
+
+=== Dimension N = 64, batch size = 1024 ===
+Model: time = 8.61 ms for 1024 systems  (118971.1 systems/s)
+torch.linalg.solve: time = 3.71 ms for 1024 systems  (275908.5 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 5.859e-03
+  max  relative error in x                : 2.695e-02
+  mean relative residual ||Ax-b||/||b||   : 8.924e-04
+  max  relative residual ||Ax-b||/||b||   : 2.753e-03
+Exact solver mean relative error (sanity) : 3.179e-07
+
+=== Dimension N = 128, batch size = 1024 ===
+Model: time = 10.20 ms for 1024 systems  (100379.7 systems/s)
+torch.linalg.solve: time = 13.58 ms for 1024 systems  (75427.0 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 6.700e-03
+  max  relative error in x                : 2.426e-02
+  mean relative residual ||Ax-b||/||b||   : 9.582e-04
+  max  relative residual ||Ax-b||/||b||   : 2.453e-03
+Exact solver mean relative error (sanity) : 3.466e-07
+
+=== Dimension N = 256, batch size = 1024 ===
+Model: time = 28.75 ms for 1024 systems  (35615.7 systems/s)
+torch.linalg.solve: time = 42.09 ms for 1024 systems  (24327.1 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 7.177e-03
+  max  relative error in x                : 1.820e-02
+  mean relative residual ||Ax-b||/||b||   : 9.909e-04
+  max  relative residual ||Ax-b||/||b||   : 1.859e-03
+Exact solver mean relative error (sanity) : 3.778e-07
+
+=== Dimension N = 512, batch size = 1024 ===
+Model: time = 106.98 ms for 1024 systems  (9571.7 systems/s)
+torch.linalg.solve: time = 158.90 ms for 1024 systems  (6444.4 systems/s)
+Model accuracy (vs ground-truth x_true):
+  mean relative error in x                : 7.469e-03
+  max  relative error in x                : 1.765e-02
+  mean relative residual ||Ax-b||/||b||   : 1.014e-03
+  max  relative residual ||Ax-b||/||b||   : 1.785e-03
+Exact solver mean relative error (sanity) : 4.253e-07
