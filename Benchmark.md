@@ -92,9 +92,3 @@ This file collects the benchmark results for the Ai-Matrix-Solver across multipl
 | 512 |  1024 |          106.98 |            9571.7 |                       158.90 |                         6444.4 |      7.469e-03 |     1.765e-02 |         1.014e-03 |        1.785e-03 |                 4.253e-07 |
 
 ---
-
-**Notes & suggestions**
-
-* All runs use batch size = 1024; consider adding a small table (or script) that shows performance vs batch size for a single N to illustrate scaling.
-* Please add hardware/runtime details (GPU model, CUDA/cuDNN, PyTorch version) and random seeds to make these results fully reproducible.
-* If you'd like, I can also generate a compact CSV or a plotted figure (PNG) of throughput and error vs N for one or more presets.
