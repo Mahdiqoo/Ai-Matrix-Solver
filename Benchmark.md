@@ -2,7 +2,7 @@
 
 **Summary**
 
-This file collects the benchmark results for the Ai-Matrix-Solver across multiple model presets (Flash, Balanced, Accurate, Extreme, Real). All runs use **batch size = 1024**. Times are wall-clock per batch (milliseconds) and throughput is reported as systems/s (1024 systems per batch divided by time).
+This file collects the benchmark results for the Ai-Matrix-Solver across multiple model presets (Flash, Balanced, Accurate, Extreme, Real). All runs use **batch size = 1024**. Times are wall-clock per batch (milliseconds) and throughput is reported as systems/s (1024 systems per batch divided by time). all benchmark results achieved with google colab NVIDIA Tesla T4 gpu.
 
 **Columns / units**
 
