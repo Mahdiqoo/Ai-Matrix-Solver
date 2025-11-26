@@ -49,7 +49,7 @@ These solvers are designed to work for **any matrix size** $N \times N$ on GPU. 
 
 ## 📊 Model Variants
 
-All variants share the same internal architecture (Hidden Dim = 20). The only difference is the **number of iterations** ($T$) the solver runs, which dictates the speed/accuracy trade-off.
+All variants share the same internal architecture (Hidden Dim = 20). Each model specially built for the corresponding **number of iterations** ($T$) for solving matrices, which dictates the speed/accuracy trade-off.
 
 | Variant | Filename | Iterations ($T$) | Speed | Accuracy | Recommended Use Case |
 | :--- | :--- | :---: | :--- | :--- | :--- |
